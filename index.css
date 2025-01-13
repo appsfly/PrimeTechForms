@@ -1,0 +1,75 @@
+body{
+    font: 1em sans-serif;
+}
+.wrapper{
+    display: flex;
+}
+.box1{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    width: 50%;
+    height: 11%;
+    border-bottom: solid black 1px;
+}
+.welcome{
+    font-size: 10px;
+    color: rgb(172, 172, 172);
+}
+.pic{
+    width: 50vw;
+    height: 100vh;
+    border-radius: 10px;
+}
+.signup{
+    margin-top: 20px;
+    width: 50%;
+    height: px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 30px;
+}
+.name{
+    width: 110%;
+    height: 20px;
+    font-size: 10px;
+}
+.email{
+    width: 110%;
+    height: 20px;
+    font-size: 10px;
+}
+.tel{
+    width: 110%;
+    height: 20px;
+    font-size: 10px;
+    outline: 0;
+}
+.label{
+    font-size: 8px;
+}
+.sign{
+    margin-top: 15px;
+    width: 95%;
+    height: 20px;
+    background-color: rgb(6, 6, 69);
+    color: white;
+    border-radius: 5px;
+}
+.last{
+    display: flex;
+}
+.already{
+    font-size: 10px;
+    color: rgb(172, 172, 172);
+}
+.log{
+    font-size: 10px;
+    margin-left: 5px;
+}
